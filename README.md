@@ -1,4 +1,4 @@
-Repository for Reaper.py bot
-- auto delete messages
-- scrape google engines
+Repository for gosh_bot
+- gosh every 5 mins everywhere
+- gosh when you gosh
 - etc..
