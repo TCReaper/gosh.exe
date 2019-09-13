@@ -47,5 +47,5 @@ async def on_ready():
     await client.change_presence(game=discord.Game(name="with your goshes"))
 
 keep_alive()
-client.loop.create_task(my_background_task())
+#client.loop.create_task(my_background_task())
 client.run(token)
