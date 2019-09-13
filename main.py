@@ -44,7 +44,7 @@ async def on_ready():
     print(client.user.name)
     print(client.user.id)
     print('------')
-    await client.change_presence(game=discord.Game(name="with your goshes"))
+    await client.change_presence(discord.Game(name="with your goshes"))
 
 keep_alive()
 #client.loop.create_task(my_background_task())
