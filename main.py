@@ -29,7 +29,7 @@ async def my_background_task():
     await client.wait_until_ready()
     message = 'gosh'
     text_channel_list = []
-    for server in Client.servers:
+    for server in client.servers:
         for channel in server.channels:
             if channel.type == 'Text':
                 text_channel_list.append(channel)
